@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1> New Student Form</h1>
+</head>
+<body>
+<form action="/add_new_student" method="POST">
+	<table>
+		<tr>
+			<td>
+				First Name:
+			</td>
+
+			<td>
+				<input type=”text” name="first_name">
+			</td>
+		</tr>
+<tr>
+<td>
+				Last Name:
+			</td>
+
+			<td>
+				<input type=”text” name="last_name">
+			</td>
+		</tr>
+		<tr>
+<td>
+				Group ID:
+			</td>
+			<td>
+				<select name="group_id">
+					<option value="">--PLEASE CHOSE A GROUP</option>
+					<option value="MS-53">MS-53</option>
+					<option value="YX-93">YX-93</option>
+					<option value="OO-66">OO-66</option>
+					<option value="PB-46">PB-46</option>
+					<option value="NK-16">NK-16</option>
+					<option value="VI-09">VI-09</option>
+					<option value="LG-06">LG-06</option>
+					<option value="HO-11">HO-11</option>
+					<option value="ZD-23">ZD-23</option>
+					<option value="JS-57">JS-57</option>
+				</select>
+<!--				<input type=”text” name="group_id">-->
+			</td>
+		</tr>
+	</table>
+	<input type="submit" value="Create student!">
+</form>
+</body>
+</html>

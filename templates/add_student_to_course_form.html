@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1> Add student to the course form</h1>
+</head>
+<body>
+<h2>Please indicate student ID and choose the appropriate course
+</h2>
+<form action="/add_student_to_course" method="POST">
+		<table>
+		<tr>
+			<td>
+				Student ID:
+			</td>
+
+			<td>
+				<input type=”text” name="stud_id">
+			</td>
+		</tr>
+<tr>
+<td>
+				Course name:
+			</td>
+
+			<td>
+				<select name="course_id">
+					<option value="">--PLEASE CHOOSE A COURSE</option>
+					<option value="1">Math</option>
+					<option value="2">Biology</option>
+					<option value="3">Geometry</option>
+					<option value="4">Chemistry</option>
+					<option value="5">Physics</option>
+					<option value="6">Geography</option>
+					<option value="7">Economics</option>
+					<option value="8">Architecture</option>
+					<option value="9">Programming</option>
+					<option value="10">History</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+	<input type="submit" value="Add student to the course!">
+</form>
+</body>
+</html>
